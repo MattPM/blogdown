@@ -1,7 +1,7 @@
 ---
 title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
+author: "MPM"
+date: 2018-10-28
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -10,23 +10,17 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
+This is some test text of the blogdown knit function to git
+
 ```{r}
 
+# here's a simple plot. 
 x <- c(1,2,3,4,5)
 y <- c(2,4,8,16,32)
 plot(x,y)
 
 ```
 
-
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
-
-
-plot(cars$dist, cars$speed)
-```
 
 # Including Plots
 
