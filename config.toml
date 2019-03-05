@@ -1,9 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Systems Immunology"
-theme = "hugo-lithium"
+theme = "mediumish-gohugo-theme"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "shortDisquis"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
